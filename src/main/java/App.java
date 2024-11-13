@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class App {
     public static void main(String[] args) {
-        Path filePath = Paths.get("input.json"); // Caminho do arquivo
+        Path filePath = Paths.get("src/main/java/input.json"); // Caminho do arquivo
 
         // Verificar se o arquivo existe
         if (!Files.exists(filePath)) {
